@@ -1,10 +1,9 @@
-body {
-  background-color: black;
-}
 .container {
   background: url("./images/flower.jpg");
   border: 1px solid rgb(250, 247, 247);
-  margin: 50px;
+  margin: 2px;
+  width: 100%;
+  background-size: cover;
 }
 #head {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -16,63 +15,68 @@ body {
   font-size: 1.4rem;
 }
 #descr {
-  font-family:monospace;
+  font-family: monospace;
   font-size: 0.9rem;
 }
 .main-card {
   background: white;
+  width: 83%;
+  position: relative;
+  right: 50px;
+  height: 80vh;
   padding: 50px 20px;
-  border: 1px #937f7f;
-  margin: 50px 100px;
+  border: 1px solid transparent;
+  margin: 50px 150px;
   text-align: center;
   box-shadow: 0px 9px 9px #b8afaf;
-  
 }
 .supervisor {
   border-top: 4px solid rgb(64, 224, 208);
-  box-shadow: 0px 4px 6px #b8afaf, 0px 4px 2px #b8afaf;
-  height: fit-content;
-  width: fit-content;
-  position: relative;
-  flex-direction: row;
+  box-shadow: 0px 4px 6px #b8afaf;
   margin: 20px 0px 30px 40px;
-  text-align: left;
-  box-sizing: border-box;
-  
+  width: 300px;
+  position: relative;
+  top: 105px;
+  left: 20px;
+  font-family: monospace;
+  font-size: 0.9rem;
 }
-.image{
+.image {
   width: 40px;
   margin: 30px 40px;
-  
-  
+  position: relative;
+  left: 100px;
 }
 .team {
   border-top: 4px solid rgb(241, 21, 21);
-  box-shadow: 0px 4px 6px #b8afaf, 0px 4px 2px #b8afaf;
-  height: fit-content;
-  width: fit-content;
-  position: relative;
-  flex-direction: row;
+  box-shadow: 0px 4px 6px #b8afaf;
   margin: 20px 0px 30px 40px;
-  text-align: left;
+  width: 300px;
+  position: relative;
+  left: 350px;
+  bottom: 200px;
+  font-family: monospace;
+  font-size: 0.9rem;
 }
 .karma {
   border-top: 4px solid rgb(236, 144, 90);
-  box-shadow: 0px 4px 6px #b8afaf, 0px 4px 2px #b8afaf;
-  height: fit-content;
-  width: fit-content;
-  position: relative;
-  flex-direction: row;
+  box-shadow: 0px 4px 6px #b8afaf;
   margin: 20px 0px 30px 40px;
-  text-align: left;
+  width: 300px;
+  position: relative;
+  left: 350px;
+  bottom: 200px;
+  font-family: monospace;
+  font-size: 0.9rem;
 }
 .calculator {
-  border-top: 4px solid rgb(236, 144, 90);
+  border-top: 4px solid rgb(64, 224, 208);
   box-shadow: 0px 4px 6px #b8afaf, 0px 4px 2px #b8afaf;
-  height: fit-content;
-  width: fit-content;
-  position: relative;
-  flex-direction: row;
   margin: 20px 0px 30px 40px;
-  text-align: left;
+  width: 300px;
+  position: relative;
+  bottom: 550px;
+  left: 680px;
+  font-family: monospace;
+  font-size: 0.9rem;
 }
